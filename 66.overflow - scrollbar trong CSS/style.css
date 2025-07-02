@@ -1,0 +1,29 @@
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(109, 255, 12);
+    overflow: auto;
+    overscroll-behavior: contain;
+  }
+  
+  /* width */
+  .box::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  .box::-webkit-scrollbar-track {
+    background: rgba(84, 65, 97, 0.47);
+    border-radius: 5px;
+  }
+  
+  /* Handle */
+  .box::-webkit-scrollbar-thumb {
+    background: #be393e;
+    border-radius: 5px;
+  }
+  
+  /* Handle on hover */
+  .box::-webkit-scrollbar-thumb:hover {
+    background: #e7839e;
+  }
